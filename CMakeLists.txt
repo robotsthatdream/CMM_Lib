@@ -111,11 +111,11 @@ add_executable(yml_to_data_labels tools/yml_to_data_labels.cpp)
 target_link_libraries(yml_to_data_labels iagmm yaml-cpp boost_serialization boost_system)
 
 #examples
-add_executable(mnist_batch example/mnist_batch.cpp)
-target_link_libraries(mnist_batch iagmm tbb yaml-cpp)
+#add_executable(mnist_batch example/mnist_batch.cpp)
+#target_link_libraries(mnist_batch iagmm tbb yaml-cpp)
 
-add_executable(eggholder_two_class_problem example/eggholder_two_class_problem.cpp)
-target_link_libraries(eggholder_two_class_problem iagmm tbb yaml-cpp)
+#add_executable(eggholder_two_class_problem example/eggholder_two_class_problem.cpp)
+#target_link_libraries(eggholder_two_class_problem iagmm tbb yaml-cpp)
 
 ####
 
