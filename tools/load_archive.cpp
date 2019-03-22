@@ -4,10 +4,10 @@
 
 #include <boost/archive/text_iarchive.hpp>
 
-#include <iagmm/gmm.hpp>
-#include <iagmm/component.hpp>
+#include <cmm/gmm.hpp>
+#include <cmm/component.hpp>
 
-using namespace iagmm;
+using namespace cmm;
 
 int main(int argc, char** argv){
 

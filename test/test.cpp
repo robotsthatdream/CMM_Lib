@@ -12,8 +12,8 @@
 #include <boost/random.hpp>
 #include <boost/chrono.hpp>
 
-#include <iagmm/gmm.hpp>
-#include <iagmm/component.hpp>
+#include <cmm/gmm.hpp>
+#include <cmm/component.hpp>
 
 #include <boost/archive/binary_oarchive.hpp>
 

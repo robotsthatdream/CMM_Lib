@@ -89,7 +89,7 @@ install(EXPORT cmm-targets DESTINATION lib/cmm)
 # cmake -Dcmm_INSTALL_TREE=/some/path/ ...
 #tools
 
-#add_executable(load_archive tools/load_archive.cpp)iagmm
+#add_executable(load_archive tools/load_archive.cpp)cmm
 #target_link_libraries(load_archive cmm )
 
 add_executable(gen_archive_stat tools/gen_archive_stat.cpp)

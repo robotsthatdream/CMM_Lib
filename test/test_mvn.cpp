@@ -1,4 +1,4 @@
-#include <iagmm/component.hpp>
+#include <cmm/component.hpp>
 #include <iostream>
 #include <chrono>
 
@@ -9,7 +9,7 @@ int main(int argc, char** argv){
     }
 
     int dimension = atoi(argv[1]);
-    iagmm::Component comp(dimension,2);
+    cmm::Component comp(dimension,2);
 
     comp.set_mu(Eigen::VectorXd::Constant(dimension,1));
     comp.set_covariance(Eigen::MatrixXd::Identity(dimension,dimension)*0.001);

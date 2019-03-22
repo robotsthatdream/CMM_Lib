@@ -1,8 +1,8 @@
 #include <iostream>
 #include <sstream>
 #include <fstream>
-#include <iagmm/trainer.hpp>
-#include <iagmm/gmm.hpp>
+#include <cmm/trainer.hpp>
+#include <cmm/gmm.hpp>
 #include <boost/archive/text_oarchive.hpp>
 #include <boost/algorithm/string.hpp>
 #include <boost/filesystem.hpp>
@@ -18,9 +18,9 @@ int main(int argc, char** argv){
 
     int nbr_epoch = std::stoi(argv[2]);
 
-    iagmm::Trainer<iagmm::GMM> trainer(argv[1],50);
+    cmm::Trainer<cmm::GMM> trainer(argv[1],50);
     trainer.initialize();
-    trainer.access_classifier().set_update_mode(iagmm::GMM::update_mode_t::BATCH);
+    trainer.access_classifier().set_update_mode(cmm::GMM::update_mode_t::BATCH);
 
     for(int i = 0; i < nbr_epoch; i++){
         std::cout << "_____________________________________" << std::endl;

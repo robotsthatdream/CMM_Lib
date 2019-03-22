@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-#include "iagmm/gmm.hpp"
+#include "cmm/gmm.hpp"
 
 #include "mnist/mnist_reader.hpp"
 

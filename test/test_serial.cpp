@@ -10,8 +10,8 @@
 #include <boost/random.hpp>
 #include <tbb/tbb.h>
 
-#include <iagmm/gmm.hpp>
-#include <iagmm/component.hpp>
+#include <cmm/gmm.hpp>
+#include <cmm/component.hpp>
 
 #include <boost/archive/binary_iarchive.hpp>
 
@@ -22,7 +22,7 @@
 #define PI 3.14159265359
 #define NBR_CLUSTER 2
 
-using namespace iagmm;
+using namespace cmm;
 
 
 int main(int argc, char** argv){
